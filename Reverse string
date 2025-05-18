@@ -1,6 +1,6 @@
 public class solution 
 {
-  public void reverse string (char[]s)
+  public void reverse string (char[]str)
   {
     int i=0;
      int j=str.length-1:
@@ -12,7 +12,16 @@ public class solution
       i++;
       j--;
       }
-  }
 }
+   public static void main(String[] args)
+    {
+        Solution sol = new Solution();
+        char[] str = {'h', 'e', 'l', 'l', 'o'};
+        sol.reverseString(str);
+        System.out.println(str);
+    }
+}
+
+
 #input ('h','e','l','l','o')
 #output('o','l','l','e','h')
