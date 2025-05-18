@@ -14,3 +14,5 @@ public class solution
       }
   }
 }
+#input ('h','e','l','l','o')
+#output('o','l','l','e','h')
